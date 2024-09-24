@@ -1,0 +1,39 @@
+{
+  "name": "store-sphere",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{vue,js,md,css,scss,less,yaml,yml}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "@vueuse/core": "^11.1.0",
+    "axios": "^1.7.7",
+    "element-plus": "^2.8.3",
+    "less": "^4.2.0",
+    "lodash": "^4.17.21",
+    "pinia": "^2.2.2",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "eslint": "^9.11.1",
+    "eslint-plugin-vue": "^9.28.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "3.3.3",
+    "sass": "^1.79.3",
+    "unplugin-auto-import": "^0.18.3",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.4.1"
+  }
+}
