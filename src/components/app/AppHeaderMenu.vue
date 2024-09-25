@@ -47,5 +47,6 @@ import BaseLink from '@/components/base/BaseLink.vue';
 .menu{
   display: flex;
   gap: 16px;
+  font-size: 13px;
 }
 </style>

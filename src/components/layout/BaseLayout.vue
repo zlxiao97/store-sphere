@@ -1,5 +1,6 @@
 <script setup>
 import AppHeader from '@/components/app/AppHeader.vue';
+import AppBanner from '@/components/app/AppBanner.vue';
 import { useHeaderHeight } from '@/composables/useHeaderHeight';
 import { computed } from 'vue';
 
@@ -8,7 +9,6 @@ const { headerHeight } = useHeaderHeight()
 const mainStyle = computed(()=>({
   paddingTop: `${headerHeight.value}px`
 }))
-
 </script>
 
 <template>
@@ -16,6 +16,7 @@ const mainStyle = computed(()=>({
     <header id="header">
       <div class="max-width">
         <AppHeader />
+        <AppBanner />
       </div>
     </header>
     <main

@@ -8,5 +8,17 @@
   $font-family:(
     '':
       "'Microsoft YaHei', 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', '微软雅黑', Arial, sans-serif"
+  ),
+  $input:(
+    'border-color': #004EA2,
+    'placeholder-color': #AFAFAF,
+  ),
+  $border-radius:(
+    'base': 0px,
+    'small': 0px,
+    'round': 0px,
+  ),
+  $border-color:(
+    '': #BCBCBC,
   )
 );

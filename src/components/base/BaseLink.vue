@@ -24,7 +24,6 @@ const linkClass = computed(()=>({
 
 <style lang="scss" scoped>
 .link{
-  font-size: 13px;
   line-height: 1.32;
   letter-spacing: 0.1em;
   cursor: pointer;
