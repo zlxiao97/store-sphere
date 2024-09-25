@@ -1,1 +1,60 @@
 // element plus 样式会自动引入，不要删除这个文件
+/* Reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Microsoft YaHei', 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', '微软雅黑', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* 常见元素的重置 */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 表单元素重置 */
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+/* 表格重置 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+a:hover {
+  text-decoration: underline;
+}
