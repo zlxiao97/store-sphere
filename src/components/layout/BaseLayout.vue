@@ -3,6 +3,7 @@ import AppHeader from '@/components/app/AppHeader.vue';
 import AppBanner from '@/components/app/AppBanner.vue';
 import { useHeaderHeight } from '@/composables/useHeaderHeight';
 import { computed } from 'vue';
+import AppNav from '../app/AppNav.vue';
 
 const { headerHeight } = useHeaderHeight()
 
@@ -17,6 +18,7 @@ const mainStyle = computed(()=>({
       <div class="max-width">
         <AppHeader />
         <AppBanner />
+        <AppNav />
       </div>
     </header>
     <main
@@ -48,5 +50,6 @@ const mainStyle = computed(()=>({
   right: 0;
   z-index: 1000;
   background-color: #FFFFFF;
+  border-bottom: 4px solid #004EA280
 }
 </style>
