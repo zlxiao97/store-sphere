@@ -1,8 +1,10 @@
 <script setup>
+import HomeHero from '@/components/home/HomeHero.vue';
+
 </script>
 
 <template>
-  <h1>Home</h1>
+  <HomeHero />
 </template>
 
 <style lang="less" scoped>
