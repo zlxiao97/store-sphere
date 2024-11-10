@@ -28,6 +28,7 @@ defineProps({
 .menu-item{
   display: flex;
   flex-direction: column;
+  gap: 5.5px;
 }
 .title{
   color: #606266;

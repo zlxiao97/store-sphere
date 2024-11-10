@@ -10,7 +10,7 @@
 html, body {
   height: 100%;
   font-family: 'Microsoft YaHei', 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', '微软雅黑', Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.32;
 }
 
 /* 常见元素的重置 */
@@ -32,7 +32,6 @@ a {
 }
 
 img {
-  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -58,4 +57,13 @@ table {
 
 a:hover {
   text-decoration: underline;
+}
+
+.swiper-pagination-bullet{
+  background-color: #272727;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: #FFFFFF !important;
 }
